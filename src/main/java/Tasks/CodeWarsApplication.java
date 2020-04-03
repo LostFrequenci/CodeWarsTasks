@@ -1,6 +1,6 @@
 package Tasks;
 
 public class CodeWarsApplication {
-!dfsdfsf;
+//dfsdfsf;
     class test{}
 }
