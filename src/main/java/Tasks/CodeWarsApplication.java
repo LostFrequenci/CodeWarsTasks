@@ -1,7 +1,8 @@
 package Tasks;
 
 public class CodeWarsApplication {
-//dfsdfsf;
-    //fsdfsdf;
-    class test{}
+
+    public static void main(String[] args){
+
+    }
 }
