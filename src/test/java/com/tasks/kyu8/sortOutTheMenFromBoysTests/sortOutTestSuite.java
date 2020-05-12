@@ -1,4 +1,4 @@
-package com.tasks.sortOutTheMenFromBoysTests;
+package com.tasks.kyu8.sortOutTheMenFromBoysTests;
 
 import org.junit.Test;
 

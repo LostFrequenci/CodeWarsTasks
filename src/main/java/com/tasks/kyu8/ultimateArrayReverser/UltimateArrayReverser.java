@@ -1,11 +1,11 @@
-package com.tasks.ultimateArrayReverser;
+package com.tasks.kyu8.ultimateArrayReverser;
 
 public class UltimateArrayReverser {
 
         public static String[] reverse(String[] a) {
             int [] nrLetters = new int[a.length];
             String [] result = new String[a.length];
-            StringBuffer sb = new StringBuffer();
+            StringBuilder sb = new StringBuilder();
 
             for(int i = 0; i < a.length; i++) {
                 sb.append(a[i]);
