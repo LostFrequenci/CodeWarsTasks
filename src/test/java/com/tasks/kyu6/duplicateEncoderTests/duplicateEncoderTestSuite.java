@@ -10,9 +10,9 @@ public class duplicateEncoderTestSuite {
     @Test
     public void duplicateTest1() {
 
-        // When
-        String inputSentence = "Prespecialized";
         // Given
+        String inputSentence = "Prespecialized";
+        // When
         String outputSentence = DuplicateEncoder.encode(inputSentence);
         // Then
         assertEquals(")()())()(()()(", outputSentence);
@@ -21,9 +21,9 @@ public class duplicateEncoderTestSuite {
     @Test
     public void duplicateTest2() {
 
-        // When
-        String inputSentence = "   ()(   ";
         // Given
+        String inputSentence = "   ()(   ";
+        // When
         String outputSentence = DuplicateEncoder.encode(inputSentence);
         // Then
         assertEquals("))))())))", outputSentence);
@@ -32,9 +32,9 @@ public class duplicateEncoderTestSuite {
     @Test
     public void duplicateTest3() {
 
-        // When
-        String inputSentence =  "AAABCDEEEFGH";
         // Given
+        String inputSentence =  "AAABCDEEEFGH";
+        // When
         String outputSentence = DuplicateEncoder.encode(inputSentence);
         // Then
         assertEquals(")))((()))(((", outputSentence);
